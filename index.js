@@ -47,7 +47,28 @@ const allWallets = [
         budget: 5,
       },
     ],
+  },  {
+    id: 2,
+    amount: 200,
+    number: "01021257615",
+    dailyLimit: 30000,
+    monthlyLimit: 100000,
+    availableBalance: 30000,
+    currentBalance: 80000,
+    transactions: [
+      {
+        time: "05 2023 00:37:25",
+        action: "receive",
+        budget: 3.2,
+      },
+      {
+        time: "05 2023 00:37:25",
+        action: "send",
+        budget: 5,
+      },
+    ],
   },
+  
 ];
 
 const specificWallets = [
